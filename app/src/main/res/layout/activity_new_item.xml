@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_marginEnd="24dp">
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Type: "
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonLost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost"
+            android:checked="true"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonFound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Found"
+            android:textSize="20dp"
+            android:checked="false"/>
+    </RadioGroup>
+
+
+
+    <EditText
+        android:id="@+id/editText_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="Lost / Found Item"
+        android:inputType="textAutoComplete"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editText_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="Phone"
+        android:inputType="textAutoComplete"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editText_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="Description"
+        android:inputType="textAutoComplete"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editText_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="Date"
+        android:inputType="textAutoComplete"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editText_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="Location"
+        android:inputType="textAutoComplete"
+        android:textSize="18sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_marginBottom="20dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
+
+</LinearLayout>
