@@ -7,6 +7,20 @@
     tools:context=".MainActivity"
     android:layout_margin="24dp">
 
+
+
+    <Button
+        android:id="@+id/buttonCreateAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="476dp"
+        android:text="Create A New Advert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="20dp"
+        />
     <Button
         android:id="@+id/buttonShowAds"
         android:layout_width="match_parent"
@@ -21,18 +35,16 @@
         />
 
     <Button
-        android:id="@+id/buttonCreateAd"
+        android:id="@+id/buttonShowOnMap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="476dp"
-        android:text="Create A New Advert"
+        android:layout_marginBottom="260dp"
+        android:padding="20dp"
+        android:text="Show On Map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        android:padding="20dp"
-        />
-
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

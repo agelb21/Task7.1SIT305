@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class MyDataListAdapter extends ListAdapter<MyData, MyDataListAdapter.MyViewHolder> {
-
     Context context;
     MyDataViewModel myDataViewModel;
 
@@ -44,10 +43,7 @@ public class MyDataListAdapter extends ListAdapter<MyData, MyDataListAdapter.MyV
                 context.startActivity(intent);
             }
         });
-
-
     }
-
     static class MyViewHolder extends RecyclerView.ViewHolder{
         TextView name;
         public MyViewHolder(@NonNull View itemView) {
@@ -55,7 +51,6 @@ public class MyDataListAdapter extends ListAdapter<MyData, MyDataListAdapter.MyV
             name = itemView.findViewById(R.id.textView);
         }
     }
-
     public static class MyDataDiff extends  DiffUtil.ItemCallback<MyData>{
 
         @Override

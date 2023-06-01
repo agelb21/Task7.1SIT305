@@ -40,4 +40,8 @@ public class MyDataRepository {
             mMyDataDao.deleteById(id);
         });
     }
+
+    public List<MyData> getAllData() {
+        return mMyDataDao.getAllData().getValue();
+    }
 }

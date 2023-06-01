@@ -11,8 +11,8 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-//@Database(entities = {MyData.class}, version = 2, exportSchema = false)
-@Database(entities = {MyData.class}, version = 2)
+
+@Database(entities = {MyData.class}, version = 2)  //update version
 public abstract class MyDataRoomDatabase extends RoomDatabase {
 
     public abstract MyDataDao myDataDao();

@@ -10,9 +10,7 @@ import java.util.List;
 
 public class MyDataViewModel extends AndroidViewModel {
     private static MyDataRepository mRepository;
-
     private final LiveData<List<MyData>> mAllMyData;
-
 
     public MyDataViewModel (@NonNull Application application){
         super(application);
